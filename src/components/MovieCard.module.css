@@ -1,0 +1,55 @@
+.moviePoster {
+  width: 250px;
+  height: 350px;
+  object-fit: fill;
+  /* border: 2px solid green; */
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+}
+.movieCard {
+  padding: 1rem;
+  display: grid;
+  place-content: center;
+  align-content: space-between;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.movieCard:hover {
+  transform: scale(1.02);
+}
+.movieCardTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.movieLang,
+.movieYear {
+  color: var(--grey-color);
+  text-transform: capitalize;
+  /* border: 1px solid red; */
+}
+.movieTitle {
+  font-size: 1.4rem;
+  margin: 0.2rem 0;
+}
+
+.infoBtn {
+  color: white;
+  padding: 0.4rem;
+  border: none;
+  outline: none;
+  width: fit-content;
+  height: 35px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  background-color: inherit;
+}
+.infoBtn:hover {
+  background-color: var(--light-gray-color);
+}
+.infoIcon {
+  height: 22px;
+  width: 22px;
+}

@@ -1,0 +1,74 @@
+.watchListItem {
+  border: 1px solid var(--base-color);
+  border-radius: 12px;
+  padding: 1rem 1.3rem;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.poster {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.details {
+  flex: 1;
+  padding: 0 0.4rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.info {
+  margin: 0.5rem 0;
+}
+
+.infoLabel {
+  font-weight: bold;
+}
+
+.infoValue {
+  margin-left: 0.5rem;
+}
+
+.knownFor {
+  font-style: italic;
+  color: #666;
+}
+
+.viewBtn {
+  align-self: start;
+  margin: 0 1rem;
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid var(--base-color);
+  outline: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.4rem;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+.viewBtn:hover {
+  color: var(--light-gray-color); /* Change background color on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.viewBtn:focus {
+  outline: 2px solid var(--blue-accent-color); /* Outline for focus state */
+  outline-offset: 2px; /* Space between outline and button */
+}
+
+.viewBtn:active {
+  background-color: var(--dark-background-color); /* Darker color on click */
+}

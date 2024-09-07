@@ -1,0 +1,10 @@
+.rowItemsContainer {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+}
+.rowItemsContainer::-webkit-scrollbar {
+  display: none;
+}

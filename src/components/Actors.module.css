@@ -1,0 +1,16 @@
+.actorContainer {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 90%;
+  max-width: 900px;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+.viewMore {
+  font-size: 0.5rem;
+}

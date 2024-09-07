@@ -1,0 +1,36 @@
+.footer {
+  height: auto;
+  background-color: #151515;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.footerBox {
+  margin: 3rem 0;
+}
+li {
+  margin-top: 0.4rem;
+}
+.navigation {
+  list-style-type: none;
+  font-family: "poppins", sans-serif;
+}
+.socialMedia {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+}
+.social {
+  position: relative;
+  bottom: 0;
+}
+.joinus {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+.joinus p {
+  margin-top: 0.3rem;
+}

@@ -1,0 +1,27 @@
+.actor {
+  margin: 0 0.5rem;
+}
+.photo {
+  max-height: 120px;
+  border-radius: 0.5rem;
+}
+.charName {
+  font-size: 0.8rem;
+  overflow: hidden;
+  font-weight: 600;
+  width: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  text-overflow: ellipsis;
+}
+.name {
+  font-size: 0.7rem;
+  overflow: hidden;
+  font-weight: 200;
+  width: 80px;
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
