@@ -1,8 +1,8 @@
-# [AMDb - Movies, tv shows & more](amdbv2.vercel.app)
+# [AMDb - Movies, tv shows & more](https://am-db-v2-mwvl4vvbc-lokesh-sharmas-projects.vercel.app/)
 
 ## Live Demo
 
-Check out the live demo [here](amdbv2.vercel.app).
+Check out the live demo [here](https://am-db-v2-mwvl4vvbc-lokesh-sharmas-projects.vercel.app/).
 
 ## Description
 
