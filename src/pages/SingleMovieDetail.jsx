@@ -155,6 +155,7 @@ function SingleMovieDetail() {
           </div>
           <div className="overlay">
             <div className={styles.trailerContainer}>
+              <h3>Videos</h3>
               {movieDetail?.videos?.results.length > 0 && (
                 <Trailer
                   backDrop={movieDetail.backdrop_path}

@@ -6,12 +6,16 @@ function Actors({ actors }) {
   console.log(actors);
   return (
     <>
-      <div className={styles.actorContainer}>
-        {actors.slice(0, 16).map((actor) => (
-          <Actor key={actor.id} {...actor} />
-        ))}
-        <p className={styles.viewMore}>View More</p>
-      </div>
+      {actors.length > 0 ? (
+        <div className={styles.actorContainer}>
+          {actors.slice(0, 16).map((actor) => (
+            <Actor key={actor.id} {...actor} />
+          ))}
+          <p className={styles.viewMore}>View More</p>
+        </div>
+      ) : (
+        <h6>Not Available For Now</h6>
+      )}
     </>
   );
 }
